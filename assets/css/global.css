@@ -7,6 +7,7 @@ body {
     line-height: 1.42857143;
     color: #333333;
     background-color: #eaedf1;
+    height: 100%;
 }
 input,
 button,
@@ -45,10 +46,84 @@ p {
     color: #888
 }
 
-#wrapper {
-    position: relative;
-    z-index: 1;
+#header {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 4.9%;
+    width: 100%;
 }
 
+#header .logo {
+    position: absolute;
+    top: 0;
+    left: 3.48%;
+    z-index: 1;
+    width: 22.5%;
+    background-image: url(../img/logo.png);
+    padding-bottom: 0.33%;
+    text-indent: -9999px;
+}
+
+#header .menu {
+    margin-top: -7px;
+    margin-right: 3.48%;
+    list-style: none;
+}
+
+#header .menu li {
+    float: left;
+    margin-right: 50px;
+}
+
+#header .menu li:last-child {
+    margin-right: 0;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    background-position:center;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#section1 { background-image: url(../img/bg-1.jpg); top: 0; }
+#section1 .bg-buildings {
+    width: 164%;
+    position: absolute;
+    left: -28.9%; /* -28.9 */
+    top: 12.2%;
+    z-index: 2;
+}
+#section1 .bg-buildings .building { position: absolute; z-index: 1; top: 0; display: block; }
+#section1 .bg-buildings .build-1  { background-image: url(../img/1-top/1.png);  left: 00.00%; width: 36.44%; padding-bottom: 13.47%; }
+#section1 .bg-buildings .build-2  { background-image: url(../img/1-top/2.png);  left: 34.10%; width: 03.62%; padding-bottom: 09.78%; margin-top: 0.46%; }
+#section1 .bg-buildings .build-3  { background-image: url(../img/1-top/3.png);  left: 32.10%; width: 02.03%; padding-bottom: 01.80%; margin-top: 8.5%; }
+#section1 .bg-buildings .build-4  { background-image: url(../img/1-top/4.png);  left: 34.01%; width: 02.16%; padding-bottom: 03.43%; margin-top: 8.74%; }
+#section1 .bg-buildings .build-5  { background-image: url(../img/1-top/5.png);  left: 36.01%; width: 02.73%; padding-bottom: 04.96%; margin-top: 7.79%; }
+#section1 .bg-buildings .build-6  { background-image: url(../img/1-top/6.png);  left: 36.90%; width: 02.79%; padding-bottom: 03.05%; margin-top: 6.35%; }
+#section1 .bg-buildings .build-7  { background-image: url(../img/1-top/7.png);  left: 36.46%; width: 02.66%; padding-bottom: 04.10%; margin-top: 9.35%; }
+#section1 .bg-buildings .build-8  { background-image: url(../img/1-top/8.png);  left: 37.60%; width: 11.56%; padding-bottom: 09.20%; margin-top: 4.35%; }
+#section1 .bg-buildings .build-9  { background-image: url(../img/1-top/9.png);  left: 38.58%; width: 06.10%; padding-bottom: 10.43%; margin-top: -1%; }
+#section1 .bg-buildings .build-10 { background-image: url(../img/1-top/10.png); left: 48.50%; width: 06.29%; padding-bottom: 07.02%; margin-top: 6.6%; }
+#section1 .bg-buildings .build-11 { background-image: url(../img/1-top/11.png); left: 54.69%; width: 05.17%; padding-bottom: 10.90%; margin-top: 2.66%; }
+#section1 .bg-buildings .build-12 { background-image: url(../img/1-top/12.png); left: 59.33%; width: 07.68%; padding-bottom: 09.50%; margin-top: 4.1%; }
+#section1 .bg-buildings .build-13 { background-image: url(../img/1-top/13.png); left: 66.95%; width: 14.48%; padding-bottom: 08.34%; margin-top: 5.3%; }
+#section1 .bg-buildings .build-14 { background-image: url(../img/1-top/14.png); left: 79.60%; width: 20.43%; padding-bottom: 05.20%; margin-top: 8.6%; }
+
+#section1 .bg-road {
+    width: 164%;
+    position: absolute;
+    left: -28.9%;
+    top: -16.4%;
+    z-index: 3;
+    background-image: url(../img/bg-2_bottom_V2.png);
+    padding-bottom: 54%;
+}
 
 
