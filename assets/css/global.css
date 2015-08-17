@@ -533,8 +533,8 @@ p {
     background-image: url(../img/bg-3_top.png);
     padding-bottom: 65.3%;
 }
-#section3 .bg-blackboard .board { position: absolute; z-index: 1; top: 0; display: block; }
-#section3 .bg-blackboard .board  { background-image: url(../img/1-top/1.png);  left: 00.00%; width: 36.44%; padding-bottom: 13.47%; }
+#section3 .bg-blackboard .board   { position: absolute; z-index: 1; top: 0; display: block; }
+#section3 .bg-blackboard .board-1 { background-image: url(../img/board-1.png);  left: 00.00%; width: 36.44%; padding-bottom: 13.47%; }
 
 #section3 .bg-road {
     width: 164%;
