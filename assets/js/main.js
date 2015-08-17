@@ -12,6 +12,10 @@ var PR = {
 
         init: function(){
 
+            //container id sine yükseklik basıyorum
+            var _windowHeight = ($(window).height());
+            $('#container').css('min-height', _windowHeight)
+
         }
     },
 
@@ -25,11 +29,6 @@ var PR = {
                 transition: 'fade'
             });
 
-            $(document).on('click', '.close-pp-btn',function() {
-                $.colorbox.close();
-                return false;
-            });
-
         }
 
     },
@@ -38,13 +37,12 @@ var PR = {
 
         init: function () {
 
-            $('#tweetAnswerForm').validator().on('submit', function (e) {
+            $('#form').validator().on('submit', function (e) {
                 if (e.isDefaultPrevented()) {
                     // gönderilemedi...
                 }
                 else {
                     // gönderildi...
-                    $('.form-success').trigger('click');
                 }
                 return false;
             });

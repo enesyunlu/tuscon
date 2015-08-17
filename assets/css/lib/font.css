@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'modern_hbold';
+    src: url('../../fonts/modernh-bold-webfont.eot');
+    src: url('../../fonts/modernh-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/modernh-bold-webfont.woff2') format('woff2'),
+    url('../../fonts/modernh-bold-webfont.woff') format('woff'),
+    url('../../fonts/modernh-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'modern_hecolight';
+    src: url('../../fonts/modernh-ecolight-webfont.eot');
+    src: url('../../fonts/modernh-ecolight-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/modernh-ecolight-webfont.woff2') format('woff2'),
+    url('../../fonts/modernh-ecolight-webfont.woff') format('woff'),
+    url('../../fonts/modernh-ecolight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'modern_hlight';
+    src: url('../../fonts/modernh-light-webfont.eot');
+    src: url('../../fonts/modernh-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/modernh-light-webfont.woff2') format('woff2'),
+    url('../../fonts/modernh-light-webfont.woff') format('woff'),
+    url('../../fonts/modernh-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'modern_hmedium';
+    src: url('../../fonts/modernh-medium-webfont.eot');
+    src: url('../../fonts/modernh-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/modernh-medium-webfont.woff2') format('woff2'),
+    url('../../fonts/modernh-medium-webfont.woff') format('woff'),
+    url('../../fonts/modernh-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
