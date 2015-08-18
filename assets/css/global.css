@@ -525,25 +525,44 @@ p {
 
 
 #section3 .bg-blackboard {
-    width: 120.2%;
+    width: 120.2%;/*120.2%*/
     position: absolute;
-    left: -2%;
-    top: -61.8%;
+    left: -2%; /* -2 */
+    top: -14%; /* -61.8 */
     z-index: 2;
     background-image: url(../img/bg-3_top.png);
-    padding-bottom: 65.3%;
+    padding-bottom: 65.3%;/*65.3%*/
 }
-#section3 .bg-blackboard .board   { position: absolute; z-index: 1; top: 0; display: block; }
-#section3 .bg-blackboard .board-1 { background-image: url(../img/board-1.png);  left: 00.00%; width: 36.44%; padding-bottom: 13.47%; }
+#section3 .bg-blackboard .board    { position: absolute; z-index: 1; display: block; }
+#section3 .bg-blackboard .board-1  { background-image: url(../img/board-1.png);  width: 19.00%; padding-bottom: 03.76%; left: 4%;    top: -2%; }
+#section3 .bg-blackboard .board-2  { background-image: url(../img/board-2.png);  width: 07.85%; padding-bottom: 11.10%; left: -4%;   top: 6%; }
+#section3 .bg-blackboard .board-3  { background-image: url(../img/board-3.png);  width: 05.73%; padding-bottom: 03.57%; left: -4.5%; top: 28%; }
+#section3 .bg-blackboard .board-4  { background-image: url(../img/board-4.png);  width: 05.89%; padding-bottom: 05.90%; left: 3%;    top: 22%; }
+#section3 .bg-blackboard .board-5  { background-image: url(../img/board-5.png);  width: 25.23%; padding-bottom: 18.86%; left: -5%;   top: 34%; }
+#section3 .bg-blackboard .board-6  { background-image: url(../img/board-6.png);  width: 14.06%; padding-bottom: 12.76%; left: 6%;    top: 7%; }
+#section3 .bg-blackboard .board-7  { background-image: url(../img/board-7.png);  width: 23.95%; padding-bottom: 10.10%; left: -5%;   top: 71%; }
+#section3 .bg-blackboard .board-8  { background-image: url(../img/board-8.png);  width: 34.74%; padding-bottom: 31.42%; left: 20%;   top: -2%; }
+#section3 .bg-blackboard .board-9  { background-image: url(../img/board-9.png);  width: 08.97%; padding-bottom: 02.98%; left: 33%;   top: 19%; }
+#section3 .bg-blackboard .board-10 { background-image: url(../img/board-10.png); width: 13.02%; padding-bottom: 03.33%; left: 31%;   top: 31%; }
+#section3 .bg-blackboard .board-11 { background-image: url(../img/board-11.png); width: 06.97%; padding-bottom: 02.24%; left: 23%;   top: 40%; }
+#section3 .bg-blackboard .board-12 { background-image: url(../img/board-12.png); width: 08.59%; padding-bottom: 07.42%; left: 23%;   top: 52%; }
+#section3 .bg-blackboard .board-13 { background-image: url(../img/board-13.png); width: 28.42%; padding-bottom: 27.67%; left: 19%;   top: 45%; }
+#section3 .bg-blackboard .board-14 { background-image: url(../img/board-14.png); width: 45.49%; padding-bottom: 44.90%; left: 42%;   top: -5%; }
+#section3 .bg-blackboard .board-15 { background-image: url(../img/board-15.png); width: 06.27%; padding-bottom: 01.78%; left: 46%;   top: 12%; }
+#section3 .bg-blackboard .board-16 { background-image: url(../img/board-16.png); width: 03.89%; padding-bottom: 03.80%; left: 62.4%; top: 16%; }
+#section3 .bg-blackboard .board-17 { background-image: url(../img/board-17.png); width: 06.47%; padding-bottom: 07.13%; left: 60.5%; top: 26%; }
+#section3 .bg-blackboard .board-18 { background-image: url(../img/board-18.png); width: 13.05%; padding-bottom: 04.70%; left: 73%;   top: 37%; }
+#section3 .bg-blackboard .board-19 { background-image: url(../img/board-19.png); width: 31.20%; padding-bottom: 05.20%; left: 44%;   top: 78%;}
+#section3 .bg-blackboard .board-20 { background-image: url(../img/board-20.png); width: 10.20%; padding-bottom: 04.36%; left: 77%;   top: 78%; }
 
-#section3 .bg-road {
+#section3 .bg-bottom {
     width: 164%;
     position: absolute;
     left: -28.9%;
-    top: -2.7%;
+    bottom: 0;
     z-index: 3;
-    background-image: url(../img/bg-2_bottom_V2.png);
-    padding-bottom: 54%;
+    background-image: url(../img/bg-3_bottom.png);
+    padding-bottom: 14%;
 }
 
 #section3 .cars {
